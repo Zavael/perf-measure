@@ -20,7 +20,7 @@ Sample call:
         measure1.stop();
 
 Results in log:
-
+```
 2015-03-27[INFO]...DefaultMeasure <init>: global.method measurement starts 
 2015-03-27[INFO]...DefaultMeasure <init>: inline.loop.method.0 measurement starts 
 2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
@@ -37,3 +37,4 @@ Results in log:
 2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
 2015-03-27[INFO]...DefaultMeasure stop: global.method : time spend: 158ms 
 2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+```
