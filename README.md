@@ -21,19 +21,19 @@ Sample call:
 
 Results in log:
 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure <init>: global.method measurement starts 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure <init>: inline.loop.method.0 measurement starts 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: inline.loop.method.0 : time spend: 30ms 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure <init>: inline.loop.method.1 measurement starts 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: inline.loop.method.1 : time spend: 30ms 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure <init>: inline.loop.method.2 measurement starts 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: inline.loop.method.2 : time spend: 30ms 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: global.method : time spend: 158ms 
-2015-03-27[INFO]sk.badand.perf.measure.DefaultMeasureFactory$DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure <init>: global.method measurement starts 
+2015-03-27[INFO]...DefaultMeasure <init>: inline.loop.method.0 measurement starts 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure stop: inline.loop.method.0 : time spend: 30ms 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure <init>: inline.loop.method.1 measurement starts 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure stop: inline.loop.method.1 : time spend: 30ms 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure <init>: inline.loop.method.2 measurement starts 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure stop: inline.loop.method.2 : time spend: 30ms 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
+2015-03-27[INFO]...DefaultMeasure stop: global.method : time spend: 158ms 
+2015-03-27[INFO]...DefaultMeasure stop: ====================================== 
