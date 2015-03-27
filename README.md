@@ -1,2 +1,2 @@
-# perf-measure-util
+# perf-measure
 Simple java code performance measurement
