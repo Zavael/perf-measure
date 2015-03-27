@@ -8,17 +8,17 @@ package sk.badand.perf.measure;
 public class DisabledfMeasureFactory extends AbstractPerfMeasureFactory {
 
     @Override
-    public Measure getMeasure() {
-        return new DisabledMeasure();
+    public Measure getNewMeasure(String name) {
+        return new DisabledMeasure(name);
     }
 
     public class DisabledMeasure implements Measure {
 
-        public DisabledMeasure() {
+        public DisabledMeasure(String name) {
         }
 
         @Override
-        public long stop(String methodName) {
+        public long stop() {
             return -1;
         }
     }

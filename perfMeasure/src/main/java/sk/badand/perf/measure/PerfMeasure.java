@@ -19,7 +19,7 @@ public class PerfMeasure {
         measureFactory = new DefaultMeasureFactory();
     }
     
-    public static Measure getMeasure(){
-        return measureFactory.getMeasure();
+    public static Measure getMeasure(String name){
+        return measureFactory.getNewMeasure(name);
     }
 }

@@ -10,5 +10,5 @@ package sk.badand.perf.measure;
  * @author abadinka <andrej.badinka@interway.sk>
  */
 abstract class AbstractPerfMeasureFactory {
-    public abstract Measure getMeasure();
+    public abstract Measure getNewMeasure(String name);
 }

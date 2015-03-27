@@ -14,8 +14,7 @@ public interface Measure {
     /**
      * stops counting the time and returns the result
      *
-     * @param methodName for logging purposes
      * @return
      */
-    public long stop(String methodName);
+    public long stop();
 }
